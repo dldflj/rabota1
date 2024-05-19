@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header{
+    background: rgb(44, 44, 44);
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+
+}
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+}
+.nav_list{
+    display: flex;
+    list-style: none;
+}
+.nav_link{
+    margin-right: 63px;
+    color: rgb(253, 250, 250);
+font-family: Arvo;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+cursor: pointer;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo_title{
+    color: rgb(252, 251, 248);
+font-family: Arvo;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.headerlogo{
+    margin-right: 10px;
+}
+.nav_link:hover{
+    color: rgb(10, 145, 255);
+}
+.hero-block{
+    background-color: rgb(44, 44, 44);
+}
+.container_hero-block{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 66px 0 67px;
+
+}
+.hero-block_title{
+    color: rgb(228, 228, 228);
+font-family: Arvo;
+font-size: 72px;
+font-weight: 400;
+line-height: 89px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 30px;
+}
+.hero-block_content{
+    max-width: 523px;
+}
+.hero-block_link{
+    border-radius: 6px;
+
+box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+background: linear-gradient(135.00deg, rgb(245, 14, 14),rgb(226, 149, 0) 100%);
+padding: 12px 73px;
+text-decoration: none;
+color: rgb(0, 0, 0);
+font-family: Arvo;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.hero-block_description{
+    margin-bottom: 30px;
+    color: rgb(228, 228, 228);
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+}
+.hero-block_img{
+width: 500px;
+}
+.about{
+    background: rgb(62, 62, 62);
+} 
+.container_about{
+    padding: 64px  0  209px;
+
+}
+.about_title{
+    color: rgb(228, 228, 228);
+font-family: Arvo;
+font-size: 48px;
+font-weight: 400;
+line-height: 59px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 91px;
+text-align: center;
+
+}
+.about_kontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.about_text{
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0px;
+
+
+
+
+}
+.about_img{
+    width: 60%;
+}
+.video{
+    background: rgb(44, 44, 44);
+}
+.container_video{
+    padding: 64px 0 94px;
+}
+.video_title{
+    color: rgb(249, 3, 3);
+    font-family: Arvo;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.video_video{
+    width: 100%;
+    height: 560px;
+    border: 50px solid rgb(65, 65, 65);
+    border-radius: 29px;
+    box-sizing: border-box;
+
+
+
+    
+
+}
+.galleru{
+    background: rgb(62, 62, 62);
+    padding: 64px 17px 70px;
+}
+.galleru_title{
+    color: rgb(248, 9, 9);
+font-family: Arvo;
+font-size: 48px;
+font-weight: 400;
+line-height: 59px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 64px;
+
+
+}
+.galleru_list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.galleru_item{
+    width: 32%;
+    height: 356px;
+    margin-right: 22px;
+    margin-bottom: 39px;
+}
+.galleru_img{
+    width: 100%;
+    height: 100%;
+    
+}
+.footer{
+    background: rgb(34, 30, 30);
+}
+   .container_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  50px 0 45px;
+   }
+   .footer_title{
+    color: rgb(228, 228, 228);
+font-family: Arvo;
+font-size: 30px;
+font-weight: 400;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 18px;
+   }
+   .footer_text{
+    color: rgb(255, 255, 255);
+font-family: Arvo;
+font-size: 16px;
+font-weight: 400;
+line-height: 164.06%;
+letter-spacing: 0%;
+text-align: left;
+
+   }
+.footer_list{
+    display: flex;
+    list-style: none;
+}
+.footer_item:not(:last-child) {
+    margin-right: 40px;
+}
+
+
+
